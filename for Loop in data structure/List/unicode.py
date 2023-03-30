@@ -1,0 +1,22 @@
+# unicode
+d={}
+d['cat']='பூனை'
+d['dog']='நாய்'
+d['cow']='மாடு'
+d['buffalo']='எருமைமாடு'
+d['rat']='எலி'
+d['squirrel']='அணில்'
+d['rabbit']='முயல்'
+d['Lion']='சிங்கம்'
+d['Tigger']='புலி'
+d['Elephant']='யானை'
+d['bear']='கரடி'
+d['giraffe']='ஒட்டகச்சிவிங்கி'
+d['camel']='ஒட்டகம்'
+d['leopard']='சிறுத்தை'
+d['blackpanther']='கருஞ்சிறுத்தை'
+print(d)
+m=input('m=?')
+while(m!='exit'):
+    print(d[m])
+    m=input('m=?')
